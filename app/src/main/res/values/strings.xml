@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">ManageU</string>
     <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!--    fragment placeholders-->
+    <string name="dashboard_fragment">Dashboard fragment</string>
+    <string name="tasks_fragment">Tasks fragment</string>
+    <string name="stats_fragment">Stats fragment</string>
+
+    <!-- titles for each nav component-->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="task_title">Tasks</string>
+    <string name="stats_title">Stats</string>
+
 </resources>
