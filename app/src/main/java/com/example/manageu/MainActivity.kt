@@ -14,11 +14,13 @@ class MainActivity : AppCompatActivity(), DashboardFragment.OnFragmentInteractio
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // set up bottom nav with nav controller (nav host)
         val bottomNavigation: BottomNavigationView = findViewById(R.id.bottomNavigationView)
         val navController: NavController = Navigation.findNavController(this, R.id.nav_host_fragment)
         NavigationUI.setupWithNavController(bottomNavigation, navController)
     }
 
+    // override from the fragment classes
     override fun onFragmentInteraction(uri: Uri) {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
