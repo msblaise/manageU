@@ -1,13 +1,11 @@
 package com.example.manageu
 
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.manageu.fragments.DashboardFragment
 import com.example.manageu.fragments.StatsFragment
 import com.example.manageu.fragments.TaskFragment
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
